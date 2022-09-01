@@ -1,0 +1,47 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+
+
+$breakpoint-xs: 576px !default; //599px
+$breakpoint-sm: 768px !default; //1023px
+$breakpoint-md: 992px !default; //1439px
+$breakpoint-lg: 1200px !default; //1919px
+
+
+$primary   : rgb(12,77,161);
+$secondary : #26A69A;
+$accent    : #9C27B0;
+
+$dark      : #1D1D1D;
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #53b5ee;
+$warning   : #F2C037;
+
+
+$laleComplementaryYallow: #F4EA77;
+$laleComplementaryOrange: #DF992D;
+
+.bg-secondary{
+    background-color: $secondary;
+}
+.bg-primary{
+    background-color: $primary;
+}
+.bg-accent{
+    background-color: $accent;
+}
+.bg-positive{
+    background-color: $positive;
+}
+
+
+
+.bg-lale-comple-yallow{
+    background-color: $laleComplementaryYallow;
+}
+.bg-lale-comple-orange{
+    background-color: $laleComplementaryOrange;
+}
+@import '~quasar-variables-styl'
