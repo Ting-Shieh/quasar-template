@@ -1,0 +1,44 @@
+{
+  "name": "fgu-micro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.2.1",
+    "element-ui": "^2.15.5",
+    "normalize.css": "^8.0.1",
+    "quasar": "^1.0.0",
+    "tinymce": "^5.9.1",
+    "twzipcode-data": "^2.0.0",
+    "twzipcode-vue": "^2.2.2",
+    "vue": "^2.6.11",
+    "vue-echarts": "^6.0.0",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "gojs": "^2.1.49",
+    "node-sass": "^4.13.0",
+    "postcss-rtl": "^1.2.3",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-quasar": "3",
+    "vue-template-compiler": "^2.6.11",
+    "vuelidate": "^0.7.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
